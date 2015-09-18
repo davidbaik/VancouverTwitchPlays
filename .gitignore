@@ -1,4 +1,24 @@
-*.class
+*.pydevproject
+.metadata
+.gradle
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+
+# Eclipse Core
+.project
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+# Locally stored "Eclipse launch configurations"
+*.launch
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
@@ -13,4 +33,5 @@ hs_err_pid*
 
 # private
 AuthKey.java
+AuthKey.class
 log.txt
