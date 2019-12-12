@@ -20,6 +20,12 @@ public class TwitchBot extends PircBot {
 	private void initLog() throws IOException {
 		fw = new FileWriter("log.txt");
 		fw.close();
+		fw = new FileWriter("log.txt");
+		fw.close();
+		fw = new FileWriter("log.txt");
+		fw.close();
+		fw = new FileWriter("log.txt");
+		fw.close();
 	}
 	
 	public void onMessage(String channel, String sender, String login, String hostname, String message) {
