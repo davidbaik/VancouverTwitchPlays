@@ -1,5 +1,8 @@
+
+
 public class Main {
 	public static void main(String[] args) {
+		String AWS_ACCESS_KEY_ID = "AKIAJRDJAST55G15AGFH";
 		TwitchBot bot = new TwitchBot();
 		AuthKey key = new AuthKey();
 		bot.setVerbose(true);
